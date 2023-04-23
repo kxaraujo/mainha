@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Feliz Aniversário, mainha!</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Feliz Aniversário, Mainha!</h1>
+		</header>
+		<main>
+			<p>Oi mainha,</p>
+			<p>Hoje é um dia muito especial e queremos aproveitar esta oportunidade para lhe desejar um feliz aniversário!</p>
+			<p>Que este novo ano de vida lhe traga muitas alegrias, saúde e realizações!</p>
+			<p>Com muito amor,</p>
+			<p>Karol, Iury e Del</p>
+		</main>
+		<div class="love-box">
+            <button id="love-button">Nós te amamos em vários idiomas! <br >Clique aqui para ver!</button>
+			<ul id="love-list"></ul>
+			<p id="mensagem"></p>
+		</div>
+		<footer>
+			<p>© Desenvolvido por @kxaraujo.dev usando Flask em Python.</p>
+		</footer>
+	</div>
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
